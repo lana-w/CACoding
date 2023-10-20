@@ -23,6 +23,7 @@ public class LoginPresenter implements LoginOutputBoundary {
         this.loginViewModel = loginViewModel;
     }
 
+
     @Override
     public void prepareSuccessView(LoginOutputData response) {
         // On success, switch to the logged in view.
